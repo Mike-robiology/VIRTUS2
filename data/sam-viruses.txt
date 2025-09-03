@@ -1,0 +1,16 @@
+NC 000898.1 Human herpesvirus 6B, complete genome
+NC 001348.1 Human herpesvirus 3, complete genome
+NC 001664.2 Human herpesvirus 6A, complete genome
+NC 001716.2 Human herpesvirus 7, complete genome
+NC 001798.1 Human herpesvirus 2, complete genome
+NC 001806.1 Human herpesvirus 1, complete genome
+NC 006273.2 Human herpesvirus 5 strain Merlin, complete genome
+NC 007605.1 Human herpesvirus 4 complete wild type genome
+NC 009333.1 Human herpesvirus 8, complete genome
+NC 009334.1 Human herpesvirus 4, complete genome
+NC 009527.1 European bat lyssavirus 1, complete genome
+NC 009640.1 Porcine rubulavirus, complete genome
+NC 015212.1 Seal anellovirus TFFN/USA/2006, complete genome
+NC 010277.1 Merkel cell polyomavirus, complete genome
+NC 001405.1 Human adenovirus C, complete genome
+NC 015783.1 Torque teno virus, complete genome
