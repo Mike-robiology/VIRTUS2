@@ -16,6 +16,11 @@ inputs:
     type: File
     'sbg:x': -445.51458740234375
     'sbg:y': -274.6721496582031
+  - id: include_secondary
+    type: boolean?
+    doc: 'If true, samtools coverage will include secondary/supplementary alignments. Default: false'
+    'sbg:x': 680
+    'sbg:y': 600
   - id: genomeDir_human
     type: Directory
     'sbg:x': -305
@@ -302,6 +307,8 @@ steps:
     in:
       - id: input
         source: bam_filter_polyx/output
+      - id: include_secondary
+        source: include_secondary
     out:
       - id: output
     run: ../tool/samtools/samtools-coverage.cwl

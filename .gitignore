@@ -12,3 +12,5 @@ wrapper/*
 .vscode/settings.json
 ._.DS_Store
 .vscode/launch.json
+STAR*
+build_index.pbs

@@ -12,6 +12,11 @@ inputs:
     type: Directory
     'sbg:x': -315
     'sbg:y': -603
+  - id: include_secondary
+    type: boolean?
+    doc: 'If true, samtools coverage will include secondary/supplementary alignments. Default: false'
+    'sbg:x': 640
+    'sbg:y': 430
   - id: outFileNamePrefix_human
     type: string?
     'sbg:x': -312
@@ -234,6 +239,8 @@ steps:
     in:
       - id: input
         source: bam_filter_polyx/output
+      - id: include_secondary
+        source: include_secondary
     out:
       - id: output
     run: ../tool/samtools/samtools-coverage.cwl
