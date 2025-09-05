@@ -1,0 +1,2 @@
+NC 001798.1 Human herpesvirus 2, complete genome
+NC 001806.1 Human herpesvirus 1, complete genome
